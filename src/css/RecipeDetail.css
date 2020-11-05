@@ -1,0 +1,28 @@
+.RecipeDetail {
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 20px auto auto;
+  /* font-weight: normal; */
+}
+
+.RecipeTitle {
+  margin-top: -15px;
+  text-align: center;
+}
+.RecipeIngredients h4 {
+  /* float: left; */
+  /* margin-bottom: 3px; */
+}
+.ListItem {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+}
+.Preparation {
+  /* padding: 300px; */
+  /* float: right; */
+  /* margin-top: 10px; */
+}
+
+.Preparation h4 {
+  /* margin-bottom: 6px; */
+}

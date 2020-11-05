@@ -1,0 +1,95 @@
+@media (max-width: 1600px) {
+  .NavBar {
+    display: inline;
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    overflow-x: scroll;
+    background-color: #fff;
+    border-right: 2px solid black;
+    transition: all 0.3s ease-out;
+  }
+  .BarIcon {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 32px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .NavBar button {
+    display: block;
+    width: 90%;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 13px;
+    margin-bottom: 10px;
+    /* padding: 0;
+    padding-right: 10px; */
+    cursor: pointer;
+    /* text-align: center; */
+  }
+}
+
+@media (min-width: 1601px) {
+  .NavBar {
+    margin-top: 10px;
+  }
+
+  .NavBar button {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 13px 10px;
+    cursor: pointer;
+
+    /* text-align: center; */
+  }
+  .BarIcon {
+    display: none;
+  }
+  .NavBar button:hover {
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+}
+@media (min-width: 1850px) {
+  .NavBar button {
+    font-size: 24px;
+    padding: 13px 14px;
+  }
+}
+
+/* @media (min-width: 1370px) and (max-width: 1600px) {
+  .NavBar {
+    margin-top: 20px;
+
+
+  }
+
+  .NavBar a {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 13px 14px;
+    cursor: pointer;
+
+  }
+  .BarIcon {
+    display: none;
+  }
+  .NavBar a:hover {
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+} */

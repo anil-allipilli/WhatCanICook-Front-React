@@ -1,0 +1,125 @@
+@media (max-width: 550px) {
+  .RecipesList {
+    /* margin: auto; */
+  }
+
+  .Recipe {
+    border-style: solid;
+    border-color: rgba(22, 20, 20, 0.15);
+    border-width: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+    padding: 40px;
+  }
+  .Title {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .Subtitle {
+    font-weight: 200;
+  }
+  .Ings {
+    font-size: 16px;
+    margin: 5px auto;
+  }
+}
+@media (min-width: 551px) and (max-width: 1600px) {
+  .RecipesList {
+    /* display: block; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: auto; */
+    /* margin-top: 20px; */
+  }
+
+  .Recipe {
+    border-style: solid;
+    border-color: rgba(22, 20, 20, 0.15);
+    border-width: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+    width: 300px;
+  }
+  .Title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .Subtitle {
+    font-weight: 200;
+  }
+  .Ings {
+    font-size: 16px;
+    margin: 5px auto;
+  }
+}
+@media (min-width: 1601px) {
+  .RecipesList {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-columns: repeat(6, 1fr); */
+  }
+
+  .Recipe {
+    padding: 20px;
+    border-style: solid;
+    border-color: rgba(22, 20, 20, 0.15);
+    border-width: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    /* margin: auto; */
+    text-align: center;
+    width: 98.5%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .Title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .Subtitle {
+    font-weight: 200;
+  }
+  .Ings {
+    font-size: 16px;
+    margin: 5px auto;
+  }
+}
+/* @media (min-width: 1601px) {
+  .RecipesList {
+
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .Recipe {
+    padding: 20px;
+    border-style: solid;
+    border-color: rgba(22, 20, 20, 0.15);
+    border-width: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+  }
+  .Title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .Subtitle {
+    font-weight: 200;
+  }
+  .Ings {
+    font-size: 16px;
+    margin: 5px auto;
+  }
+} */

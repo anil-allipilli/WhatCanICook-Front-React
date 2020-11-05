@@ -1,0 +1,92 @@
+@media (max-width: 550px) {
+  .SelectedIngredients {
+    margin-top: 10px;
+    /* margin-right: 20px; */
+  }
+  .SelectedIngredient {
+    font-size: 16px;
+    list-style-position: inside;
+  }
+  .SelectedIngredient:hover {
+    background-color: antiquewhite;
+  }
+  .SFicon {
+    /* position: relative; */
+    /* right: -40px; */
+    float: right;
+  }
+}
+@media (min-width: 551px) and (max-width: 900px) {
+  .SelectedIngredients {
+    /* margin-top: 50px; */
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .SelectedIngredient {
+    font-size: 16px;
+    list-style-position: inside;
+    cursor: pointer;
+    float: left;
+    /* width: 540px; */
+  }
+
+  .SelectedIngredient:hover {
+    background-color: antiquewhite;
+  }
+  .SFicon {
+    float: right;
+    margin-right: 80px;
+  }
+}
+@media (min-width: 901px) and (max-width: 1600px) {
+  .SelectedIngredients {
+    /* margin-top: 50px; */
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .SelectedIngredient {
+    font-size: 16px;
+    list-style-position: inside;
+    cursor: pointer;
+    float: left;
+    height: 100%;
+    /* margin-top: 1px; */
+    /* width: 540px; */
+  }
+
+  .SelectedIngredient:hover {
+    background-color: antiquewhite;
+  }
+  .SFicon {
+    float: right;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 1601px) {
+  .SelectedIngredients {
+    /* margin-top: 50px; */
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .SelectedIngredient {
+    font-size: 20px;
+    list-style-position: inside;
+    cursor: pointer;
+    float: left;
+    /* width: 540px; */
+  }
+
+  .SelectedIngredient:hover {
+    background-color: antiquewhite;
+  }
+  .SFicon {
+    float: right;
+    margin-right: 80px;
+  }
+}

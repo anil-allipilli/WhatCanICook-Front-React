@@ -26,7 +26,7 @@ const initialState = {
   recipes: [],
   selectedRecipe: {}
 };
-export default (state = initialState, action) => {
+const reducers = (state = initialState, action) => {
   switch (action.type) {
     case SET_INGREDIENTS:
       return {
@@ -71,3 +71,5 @@ export default (state = initialState, action) => {
       return state;
   }
 };
+
+export default reducers

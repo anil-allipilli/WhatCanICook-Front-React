@@ -1,0 +1,115 @@
+@media screen and (max-width: 550px) {
+  .IngTab {
+    display: grid;
+    margin-bottom: 10px;
+  }
+  .Ingredients {
+    /* margin-top: 20px; */
+    margin-left: 13px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    list-style: none;
+  }
+  .Batch {
+    /* float: left; */
+    /* width: 25%; */
+    /* padding-left: 20px; */
+  }
+  .Ingredient {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .Ingredient:hover {
+    background-color: antiquewhite;
+  }
+  .Ficon {
+    float: right;
+  }
+}
+@media (min-width: 551px) and (max-width: 900px) {
+  .IngTab {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .Ingredients {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-position: inside;
+  }
+  .Batch {
+    /* float: left; */
+    /* width: 25%; */
+    /* padding-left: 20px; */
+  }
+  .Ingredient {
+    font-size: 16px;
+    cursor: pointer;
+    /* width: 320px; */
+  }
+
+  .Ingredient:hover {
+    background-color: antiquewhite;
+  }
+  .Ficon {
+    float: right;
+  }
+}
+@media (min-width: 901px) and (max-width: 1600px) {
+  .IngTab {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .Ingredients {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style-position: inside;
+  }
+  .Batch {
+    /* float: left; */
+    /* width: 25%; */
+    /* padding-left: 20px; */
+  }
+  .Ingredient {
+    font-size: 16px;
+    cursor: pointer;
+    /* width: 320px; */
+  }
+
+  .Ingredient:hover {
+    background-color: antiquewhite;
+  }
+  .Ficon {
+    float: right;
+  }
+}
+@media (min-width: 1601px) {
+  .IngTab {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .Ingredients {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style-position: inside;
+  }
+  .Batch {
+    margin-left: 20px;
+  }
+  .Ingredient {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .Ingredient:hover {
+    background-color: antiquewhite;
+  }
+  .Ficon {
+    float: right;
+  }
+}
