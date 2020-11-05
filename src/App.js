@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faTrash, faBars, faWindowClose } from "@fortawesome/free-solid-svg-icons";
 
